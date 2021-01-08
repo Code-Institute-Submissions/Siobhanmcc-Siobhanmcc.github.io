@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Open Sans';
+    color: #777777;
     
 }
 
@@ -11,4 +12,46 @@ body{
     margin:0;
     padding:0;
     border:0;
+}
+
+h2 {
+    color: #555555;
+}
+
+#logo {
+    float:left;
+}
+
+#menu {
+    list-style-type:none;
+
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li{
+    float: right;
+    margin-right: 30px;
+
+}
+
+#menu a {
+    text-decoration:none;
+    color:inherit;
+}
+
+#menu a:hover {
+    border-bottom:1px solid #777777;
+}
+
+.active{
+    border-bottom: 1px solid #777777;
+}
+
+#hero-image{
+    height:600px;
+    
+    background:url('../Images/medium-laptop.jpg') no-repeat center;
 }
