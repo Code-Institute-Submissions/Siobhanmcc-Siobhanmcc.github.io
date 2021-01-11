@@ -152,6 +152,9 @@ a {
     padding:40px;
     clear:both;
     overflow:hidden;
+    
+   
+    
 }
 
 .back-end-skills {
@@ -161,8 +164,52 @@ a {
     padding:40px;
     clear:both;
     overflow:hidden;
+    position:relative;
+    padding-bottom:100px;
 }
 
 .skills-wrapper{
     margin:auto;
+}
+
+img {
+    width:300px;
+    height250px;
+}
+
+.proj-left {
+    float:left;
+    padding-top:40px;
+    width:33%;
+    padding-left:10px;
+    padding-bottom:100px;
+}
+
+.proj-center {
+    float:left;
+    padding-top:40px;
+    width:33%;
+    padding-bottom:100px;
+}
+
+.proj-right {
+    float:left;
+    padding-top:40px;
+    width:33%;
+    padding-bottom:100px;
+
+}
+#form-div {
+    text-align:center;
+    padding-left:100px;
+    float:center;
+    width:100%;
+    display: table;
+}
+
+#form {
+    display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+
 }
