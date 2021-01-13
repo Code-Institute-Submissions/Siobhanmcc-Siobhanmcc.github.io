@@ -17,10 +17,10 @@ body{
 h2 {
     color: #555555;
     margin-left:15px;
-    font-size:30px;
-    
-  
+    font-size:30px;  
+    text-decoration: none;
 }
+
 
 #logo {
     float:left;
@@ -57,7 +57,7 @@ h2 {
 #hero-image{
     height:600px;
     width:100%;
-    background:url('../Images/medium-laptop.jpg') no-repeat center;
+    background:url('../images/medium-laptop-min.jpg') no-repeat center;
     background-size: cover;
     z-index:1;
     position:relative;
@@ -213,10 +213,45 @@ button {
     padding-left:500px;
 }
     
+.footer {
+    text-align:center;
+    font-size:2em;
+    padding-bottom:20px;
+}
     
+
+@media screen and (max-width:1393px) {
+    #hero-image {
+        width:100%;
+    }
+
+    #overlay-text {
+        position:relative;
+        text-align:center;
+    }
+
+.proj-right, .proj-left, .proj-center{
+        width:100%;
+        clear: both;
+        padding-bottom:10px;
+        padding-left:2px;
+}
 
 }
 
-//*form{
-    width:70%;
+@media screen and (max-width:943px){
+ #overlay-text {
+     right:0px;
+ }
+
+ #menu {
+     clear:left;
+     float:left;
+     margin-left:30px;
+     margin-bottom:20px;
+     line-height:25px;
+ }
+
+}
+
 }

@@ -4,39 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siobhan McCauley</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="Assets/CSS/style.css" rel="stylesheet" type="text/css"
+       <link rel="stylesheet" href="assets/css/style.css"
 </head>
-<body>
-    <header>
-        <a href="index.html">
-        <h2 id="logo">Siobhán McCauley</h2>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li> 
-                    <a href="#contact-section">Contact</a>
-                </li>
-                <li>
-                    <a href="#projects-section">Projects</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    
-                    <a href="#about-me-section">About</a>
-                </li>
-                <li>
-                    
-                    <a href="index.html" class="active">Home</a>
-            </li>
-            </ul>
-        </nav>
+   <header>
+
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#fat">@fat</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#mdo">@mdo</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#one">one</a>
+        <a class="dropdown-item" href="#two">two</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#three">three</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="fat">@fat</h4>
+  <p>...</p>
+  <h4 id="mdo">@mdo</h4>
+  <p>...</p>
+  <h4 id="one">one</h4>
+  <p>...</p>
+  <h4 id="two">two</h4>
+  <p>...</p>
+  <h4 id="three">three</h4>
+  <p>...</p>
+</div>
+   <a href="index.html">
+       <h2 id="logo">Siobhán McCauley</h2>
+   </a>
+   <nav>
+       <ul id="menu">
+           <li><a href="#contact-section"> Contact</a></li>
+           <li><a href="#projects-section"> Projects</a></li>
+           <li><a href="#skills"> Skills</a></li>
+           <li><a href="#about"> About</a></li>
+           <li><a href="index.html" class="active"> Home</a></li>
+           
+           
+           
+           
+       </ul>
+   </nav>
     </header>
-    
     <section id="hero-outer">
         <div id="hero-image"></div>
         <div id="overlay-text"> 
@@ -45,7 +69,7 @@
         </div>
     </section>
     
-    <section><a name="about-me-section"></a>
+    <section id="section1"><a name="about-me-section"></a>
     <h1 class="main">About</h1>
     <div id="about"><p>I’m a Full Stack Web Developer currently enrolled at the Code Institute. <br>
 
@@ -65,10 +89,11 @@ I design attractive front-ends with solid logic behind the scenes!</p></div>
         </div></a>
     </section>
     
-    <section><a name="projects-section"></a><h1> Projects</h1></section></a>
-    <div class="proj-left"><img src="Assets/Images/this-site.png" alt="This Site"></div>
-    <div class="proj-center"><img src="Assets/Images/voxgov.png" alt="This Site"></div>
-    <div class="proj-right"><img src="Assets/Images/blog.png" alt="This Site"></div>
+    <section><a name="projects-section"></a><h1> Projects</h1></a>
+    <div class="proj-left"><img src="assets/images/this-site.png" alt="This Site"></div>
+    <div class="proj-center"><img src="assets/images/voxgov.png" alt="This Site"></div>
+    <div class="proj-right"><img src="assets/images/blog.png" alt="This Site"></div>
+    </section>
     <section><a name="contact-section"><h1>Contact</h1></a>
     <form>
   <div class="form-group">
@@ -87,7 +112,12 @@ I design attractive front-ends with solid logic behind the scenes!</p></div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form> 
 </section>
-    <footer></footer>
+    <footer>
+        <div class="footer"><a href="https://www.facebook.com/siobhan.mccauley.33" target="_blank"><i class="fab fa-facebook"></i></a>
+       <a href="https://www.instagram.com/siobhanmarynyc/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/siobhanmcc123" target="_blank"><i class="fab fa-twitter"></i></a>
+</div>
+    </footer>
     
 </body>
 </html>
