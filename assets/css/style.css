@@ -21,37 +21,8 @@ h2 {
     text-decoration: none;
 }
 
-
-#logo {
-    float:left;
-}
-
-#menu {
-    list-style-type:none;
-
-}
-
-#logo, #menu {
-    line-height: 75px;
-}
-
-#menu li{
-    float: right;
-    margin-right: 30px;
-
-}
-
-#menu a {
-    text-decoration:none;
-    color:inherit;
-}
-
 #menu a:hover {
     border-bottom:1px solid #777777;
-}
-
-.active{
-    border-bottom: 1px solid #777777;
 }
 
 #hero-image{
@@ -181,7 +152,7 @@ img {
     float:left;
     padding-top:40px;
     width:33%;
-    padding-left:10px;
+    padding-left:50px;
     padding-bottom:200px;
 }
 
@@ -190,6 +161,7 @@ img {
     padding-top:40px;
     width:33%;
     padding-bottom:200px;
+    text-align:center;
 }
 
 .proj-right {
@@ -225,33 +197,16 @@ button {
         width:100%;
     }
 
-    #overlay-text {
-        position:relative;
-        text-align:center;
-    }
+}
 
+@media screen and (max-width:943px){
+ #overlay-text h2{
+     left:0px;
+ }
 .proj-right, .proj-left, .proj-center{
         width:100%;
         clear: both;
         padding-bottom:10px;
         padding-left:2px;
 }
-
-}
-
-@media screen and (max-width:943px){
- #overlay-text {
-     right:0px;
- }
-
- #menu {
-     clear:left;
-     float:left;
-     margin-left:30px;
-     margin-bottom:20px;
-     line-height:25px;
- }
-
-}
-
 }
