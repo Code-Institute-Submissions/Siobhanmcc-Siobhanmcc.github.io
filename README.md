@@ -53,7 +53,7 @@ Balsamiq was used to create the wireframes during the design process.
 ## Testing  
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-W3C Markup Validator
+W3C Markup Validator  
 W3C CSS Validator
 
 ## Testing User Stories from User Experience (UX) Section  
@@ -85,13 +85,15 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Code
 Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive by using the bootstrap navbar dropdown.
+I took code from Scrollspy on the Bootstrap site to build the navigation bar.  
 
 ## Content
 All content was written by the developer.
 
 ## Media
-All Images were created by the developer.
-Acknowledgements
+All Images were created by the developer.  
+
+## Acknowledgements
 My Mentor Guido Cecillio for continuous helpful feedback.
 
 Tutor support at Code Institute for their support.
