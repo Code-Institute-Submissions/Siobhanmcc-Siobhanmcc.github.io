@@ -78,6 +78,7 @@ h1 {
     margin:10px;
     padding:40px;
     text-align:center;
+
     
 }
 
@@ -109,6 +110,7 @@ h1 {
 #about-icons {
     font-size:1.5em;
 }
+
 
 a {
     text-decoration=none;
@@ -208,5 +210,8 @@ button {
         clear: both;
         padding-bottom:10px;
         padding-left:2px;
+        text-align:center;
 }
 }
+
+
