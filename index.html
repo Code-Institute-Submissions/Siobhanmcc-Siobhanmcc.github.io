@@ -15,22 +15,35 @@
 <!--Navigation bar-->
     <nav id="navbar-example2" class="navbar navbar-light bg-light fixed-top">
   <a class="navbar-brand" href="index.html"><h2>Siobhan McCauley </h2></a>
-  <ul class="nav nav-pills">
-    <li class="nav-item">
-      <a class="nav-link" href="#index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#about">About</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#skills">Skills</a>
-        <a class="dropdown-item" href="#projects-section">Projects</a>
-        <a class="dropdown-item" href="#contact-section">Contact</a>
-      </div>
-    </li>
-  </ul>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#skills">Skills</a>
+          <a class="dropdown-item" href="#projects">Projects</a>
+          <a class="dropdown-item" href="#contact">Contact</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+    </form>
+  </div>
+</nav>
+</header>
 </nav>
 <!--Hero Image-->
     </header>
@@ -50,12 +63,15 @@
 I build fully functional websites, improve UX and manipulate data effectively. <br>
 
 I design attractive front-ends with solid logic behind the scenes!</p></div>
-    <div><div class= "about-left"> <a href="https://www.linkedin.com/in/siobhan-mccauley/" target="_blank"><p>Visit my Linkedin <br>Profile! <br><i class="fab fa-linkedin"></i></p></a>
+<div><div class= "about-left"> <a href="https://www.linkedin.com/in/siobhan-mccauley/" target="_blank"><p>Visit my Linkedin <br>Profile! <br><i class="fab fa-linkedin"></i></p></a>
 </div>
     <div class="about-center"> <a href="https://github.com/Siobhanmcc/Siobhanmcc.github.io" target="_blank"><p>View My Github <br> Repository</p></a>
 <i class="fab fa-github-square"></i></div>
     <div class="about-right"> <a href="assets/images/res2020.pdf" target="_blank" download><p>Download my <br>résumé </p><i class="far fa-file-word"></i></a></div></div>
    </section>
+
+
+ 
 
    <!--Skills section-->
     <section>
@@ -66,31 +82,65 @@ I design attractive front-ends with solid logic behind the scenes!</p></div>
     </section>
     
     <!--Projects section-->
-    <section><a name="projects-section"><h1> Projects</h1></a>
-    <div class="proj-left" ><img src="assets/images/this-site.png" alt="This Site"></div>
-    <div class="proj-center"><a href="https://www.voxgov.com" target="_blank"><img src="assets/images/voxgov.png" alt="This Site"></a></div>
-    <div class="proj-right"><a href="https://presentmindinsights.com/siobhans-blog/" target="_blank"><img src="assets/images/blog.png" alt="This Site"></a></div>
-    </section>
+   <section class="container" id="projects">
+  <h1> Projects</h1>
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card">
+        <img src="assets/images/this-site.png" class="card-img-top" alt="This site">
+        <div class="card-body">
+          <h5 class="card-title">This site</h5>
+          <p class="card-text">A site showing my resume and skills aimed at recruiters & potential employers</p>
+          <a href="index.html" class="btn btn-primary" target="_blank">View</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/images/voxgov.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Voxgov</h5>
+          <p class="card-text">Voxgov is a site which collects information from the US Federal & State Government</p>
+          <a href="https://www.voxgov.com" class="btn btn-primary" target="_blank">View</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/images/blog.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Siobhan's blog</h5>
+          <p class="card-text">Siobhan's blog is a site which explores mindfulness & shares daily insights</p>
+          <a href="https://presentmindinsights.com/siobhans-blog/" class="btn btn-primary" target="_blank">View</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!--Contact section-->
-    <section><a id="contact-section"><h1>Contact</h1></a>
-    <form method="POST" action="https://formdump.codeinstitute.net/">
-  <div class="form-group">
-    <label for="exampleInputName1">Name</label>
-    <input type="name" class="form-control" id="exampleInputName1" aria-describedby="Name" placeholder="Enter name here">
-    
+    <section class="container">
+  <h1 id="contact">Contact</h1>
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-md-8">
+      <form method="POST" action="https://formdump.codeinstitute.net/">
+        <div class="form-group mb-3">
+          <label for="exampleInputName1" class="form-label">Name</label>
+          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="Name"
+            placeholder="Enter name here">
+        </div>
+        <div class="form-group mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Enter email here">
+        </div>
+        <div class="form-group mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Enter query here</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Email</label>
-    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Enter email here">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Enter query here</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form> 
-</section>
     <footer>
         <div class="footer"><a href="https://www.facebook.com/siobhan.mccauley.33" target="_blank"><i class="fab fa-facebook"></i></a>
        <a href="https://www.instagram.com/siobhanmarynyc/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>

@@ -154,38 +154,17 @@ img {
     height250px;
 }
 
-/*Projects section*/
-.proj-left {
-    float:left;
-    padding-top:40px;
-    width:33%;
-    padding-left:50px;
-    padding-bottom:200px;
-}
+/*Projects*/
 
-.proj-center {
-    float:left;
-    padding-top:40px;
-    width:33%;
-    padding-bottom:200px;
-    text-align:center;
-}
-
-.proj-right {
-    float:left;
-    padding-top:40px;
-    width:33%;
-    padding-bottom:200px;
+#projects {
+    margin-bottom:100px;
 
 }
+
+
 
 /*Contact section*/
-.form-group {
-    margin:50px;
-    width:75%;
-    
 
-}
 
 button {
      margin:50px;
@@ -218,6 +197,13 @@ button {
         padding-left:2px;
         text-align:center;
 }
+}
+
+
+.'fab fa-linkedin' {
+
+    width:40px;
+    height:40px;
 }
 
 
