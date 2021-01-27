@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
-body{
+body {
     font-family: 'Open Sans';
     color: #777777;
     
 }
 
-*{
+* {
     margin:0;
     padding:0;
     border:0;
@@ -27,7 +27,7 @@ h2 {
     border-bottom:1px solid #777777;
 }
 
-#hero-image{
+#hero-image {
     height:600px;
     width:100%;
     background:url('../images/medium-laptop-min.jpg') no-repeat center;
@@ -77,13 +77,11 @@ h1 {
 }
 /*About section */
 
-#about {
-     font-size:30px;
+.about {
+    font-size:30px;
     margin:10px;
     padding:40px;
-    text-align:center;
-
-    
+    text-align: center;
 }
 
 .about-left {
@@ -114,6 +112,10 @@ h1 {
     font-size:1.5em;
 }
 
+.main {
+    text-align:center;
+    font-size:30px;
+}
 
 a {
     text-decoration=none;
@@ -161,21 +163,12 @@ img {
 
 }
 
-
-
-/*Contact section*/
-
-
-button {
-     margin:50px;
-    width:15%;
-    padding-left:500px;
-}
+/* Contact section */
     
 .footer {
-    text-align:center;
-    font-size:2em;
-    padding-bottom:20px;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 0 20px 0;
 }
     
 /*Media queries*/
@@ -183,27 +176,14 @@ button {
     #hero-image {
         width:100%;
     }
-
 }
 
-@media screen and (max-width:943px){
- #overlay-text h2{
-     left:0px;
- }
-.proj-right, .proj-left, .proj-center{
-        width:100%;
-        clear: both;
-        padding-bottom:10px;
-        padding-left:2px;
-        text-align:center;
-}
+@media screen and (max-width:943px) {
+    #overlay-text h2{
+        left:0px;
+    }
 }
 
-
-.'fab fa-linkedin' {
-
-    width:40px;
-    height:40px;
+.button {
+    margin = 0
 }
-
-
