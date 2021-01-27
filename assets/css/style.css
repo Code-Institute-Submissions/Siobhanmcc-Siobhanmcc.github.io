@@ -155,12 +155,10 @@ img {
     width:300px;
     height250px;
 }
+/* Projects */
 
-/*Projects*/
-
-#projects {
-    margin-bottom:100px;
-
+.card{
+    margin-bottom: 50px;
 }
 
 /* Contact section */
