@@ -1,6 +1,7 @@
 # Siobhan McCauley's Website
 
 This is a website designed to showcase the work, skills and portfolio of web developer Siobhan McCauley. It is designed to be responsive on a range of devices making it accessible for users.
+The live link to view it is here https://siobhanmcc.github.io/
 
 ##  User Experience (UX)  
 ### User Stories
